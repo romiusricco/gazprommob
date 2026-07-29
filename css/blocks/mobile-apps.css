@@ -1,0 +1,129 @@
+.steps-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    gap: 20px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.steps-list__item {
+    flex: 1;
+    padding: 0;
+}
+
+.steps-list__count {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    background-color: #476BF0;
+    /* Синий цвет с макета */
+    color: #fff;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    margin-bottom: 16px;
+}
+
+.steps-list__count--medium {
+    width: 96px;
+}
+
+.steps-list__count--large {
+    width: 128px;
+}
+
+.steps-list__title {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    margin: 0 0 16px;
+}
+
+.steps-list__text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.steps-list__link {
+    color: #425CD3;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+.about-app {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 0;
+    margin: 0 auto 100px;
+    gap: 100px;
+    max-width: 1240px;
+}
+
+.about-app__img {
+    display: block;
+    max-width: 50%;
+    height: 100%;
+}
+
+.about-app__inner {
+    width: 620px;
+    height: auto;
+}
+
+.about-app__title {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 700;
+    margin: 0 0 16px 0;
+}
+
+.about-app__text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    margin: 0 0 32px 0;
+}
+
+/* Кнопки */
+.about-app__links {
+    display: flex;
+    gap: 12px;
+}
+
+.about-app__link {
+    display: flex;
+    align-items: center;
+    /* Центрирует текст по вертикали */
+    justify-content: center;
+    /* Центрирует текст по горизонтали */
+    width: 170px;
+    height: 48px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: #F0F2F5;
+    color: #000;
+}
+
+.about-app__link--secondary {
+    background-color: #1A1C20;
+    /* Темная кнопка */
+    color: #fff;
+}
+
+.about-app__link:hover {
+    opacity: 0.85;
+    transition: opacity 0.2s ease;
+}
